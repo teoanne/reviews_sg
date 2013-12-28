@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+/* variables */ 
+
+$lightgray: #999;
+
 /* universal styling */
 
 html {
@@ -91,9 +95,12 @@ p{
 /* Words on front page */
 .front-page {
 padding-top: 160px;
-color: #000 ;
+color: $lightgray;
 }
 
+/* About page styling */
+
+/* Contact Us page styling */
 
 
 
