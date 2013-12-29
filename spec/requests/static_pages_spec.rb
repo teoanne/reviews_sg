@@ -3,7 +3,7 @@ require 'spec_helper'
 describe "Static Pages" do
 
   describe "Homepage" do
-    before { visit static_pages_home_path}
+    before { visit "/static_pages/home"}
 
     it "should have content Singapore Review" do
       expect(page).to have_content('Singapore Review') 
