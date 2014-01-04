@@ -1,0 +1,19 @@
+<% provide (:title, "All Users") %>
+<h1>All Users</h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+		
+		<%= render @users %> 
+
+		<% if false %> <li> <%# note that lines 10 to 14 is just a comment, the current render code replaces these lines %>
+		<%= gravatar_for user, size 52 %>
+		<%= link_to user.name, user %>
+		</li>
+		<% end %>
+
+	<% end %>
+</ul>
+
+<%= will_paginate %>
