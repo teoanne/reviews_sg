@@ -134,8 +134,50 @@ input {
 
 /* Error Explanations */
 
+/* Users index page */
 
+.users {
+	list-style: none;
+	margin: 0;
+}
 
+.users li {
+	overflow: auto;
+	padding: 10px, 0;
+	border-top: 1px solid $lightgray;
+}
+
+/* Microposts styling */
+
+.microposts {
+	list-style: none;
+	margin: 10px, 0 0 0;
+}
+
+.microposts li {
+	padding: 10px 0;
+	border-top: 1px solid #e8e8e8;
+}
+
+.content {
+	display: block;
+}
+
+.timestamp {
+	color: $lightgray;
+}
+
+.gravatar {
+	float: left;
+	margin-right: 10px;
+}
+
+aside {
+	textarea {
+		height: 100px;
+		margin-bottom: 5px;
+	}
+}
 
 /* About page styling */
 
